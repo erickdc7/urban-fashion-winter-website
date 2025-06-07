@@ -22,3 +22,29 @@
   display: flex;
   align-items: center;
 }
+
+.logo {
+  width: 160px;
+  cursor: pointer;
+}
+
+.cart {
+  width: 40px;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  padding-left: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}

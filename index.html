@@ -2,54 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Urban Fashion Winter Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Fashion - Winter</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet" />
+
 </head>
 
 <body>
     <div class="container">
-        <div class="navbar">
-            <img src="assets/images/logo.png" alt="logo" class="logo">
-            <nav>
+        <header class="navbar">
+            <img src="assets/images/logo.png" alt="logo" class="logo" />
+            <nav class="nav-links">
                 <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Collections</a>
-                    </li>
-                    <li>
-                        <a href="#">Category</a>
-                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Category</a></li>
                 </ul>
             </nav>
-            <img src="assets/images/cart.png" alt="icon" class="cart">
-        </div>
 
-        <div class="content">
-            <a href="#" class="btn">2025 Collections</a>
-            <h1>You should always <br /> feel pretty</h1>
-            <p>Clothes that are sure to heat up your winter.</p>
+            <div class="nav-icons">
+                <img src="assets/images/cart.png" alt="cart" class="cart" />
+                <button class="hamburger" id="hamburger-btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Menú deslizable -->
+        <aside class="slide-menu" id="slide-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Category</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <a href="#" class="btn">Explore 2025 Collections</a>
+            <h1>Always Feel<br /> Confident <br /> and Stylish</h1>
+            <p>Discover clothes designed to keep<br /> you warm and on-trend this winter season.</p>
+
 
             <div class="arrow-icons">
-                <img src="assets/images/back-arrow.png" alt="arrow">
-                <img src="assets/images/next-arrow.png" alt="arrow">
+                <img src="assets/images/back-arrow.png" alt="back arrow" />
+                <img src="assets/images/next-arrow.png" alt="next arrow" />
             </div>
-        </div>
+        </main>
 
-        <img src="assets/images/img.png" alt="img" class="feature-img">
+        <img src="assets/images/img.png" alt="feature" class="feature-img" />
 
-        <div class="social-links">
+        <footer class="social-links">
             <a href="#">Facebook</a>
             <a href="#">Instagram</a>
             <a href="#">X</a>
-        </div>
+        </footer>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

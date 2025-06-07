@@ -77,3 +77,19 @@ nav ul li a {
   color: #fff;
   box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
 }
+
+.arrow-icons {
+  margin-top: 40px;
+  display: flex;
+}
+
+.arrow-icons img {
+  width: 40px;
+  margin-right: 25px;
+}
+
+.feature-img {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+}
